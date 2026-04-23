@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Anand - Interactive Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="layout-wrapper">
+    
+    <!-- Floating Sidebar Navigation -->
+    <nav class="floating-nav">
+        <a href="#summary" class="active">Summary</a>
+        <a href="#overview">Overview</a>
+        <a href="#work-history">Work History</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#websites">Websites</a>
+        <a href="#certifications">Certification</a>
+        <a href="#personal">Personal Information</a>
+        <a href="#languages">Languages</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Timeline</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="resume-container">
+        
+        <!-- Header Section -->
+        <header class="profile-header">
+            <div class="profile-text">
+                <h1>Abhishek Anand</h1>
+                <div class="header-meta">
+                    <span><i class="fa-solid fa-briefcase"></i> Building Intelligent Shopify Experiences @theprintspace</span>
+                    <span><i class="fa-solid fa-location-dot"></i> Remote, UP</span>
+                </div>
+                <button class="contact-pill" onclick="window.location.href='mailto:abhishekanand640@yahoo.com'">
+                    Message me
+                </button>
+            </div>
+            
+            <div class="profile-image-container">
+                <img src="static/profile-picture-abhishek.jpg" alt="Abhishek Anand">
+            </div>
+        </header>
+
+        <!-- Summary Section -->
+        <section id="summary">
+            <h2>Summary</h2>
+            <p id="summary-content"></p>
+        </section>
+
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2>Overview</h2>
+            <div class="overview-grid" id="overview-container">
+                <!-- Data injected via JS -->
+            </div>
+        </section>
+
+        <!-- Work History Section -->
+        <section id="work-history">
+            <h2>Work History</h2>
+            <div id="work-history-container">
+                <!-- Data injected via JS -->
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div id="education-container">
+                <!-- Data injected via JS -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+            <div class="experience-card">
+                <ul class="skills-grid" id="skills-container">
+                    <!-- Data injected via JS -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Websites Section -->
+        <section id="websites" class="fade-in">
+            <h2>Websites</h2>
+            <div class="experience-card">
+                <div id="websites-container" style="display:flex; flex-wrap:wrap; gap:0.8rem;">
+                    <!-- Data injected via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Certification Section -->
+        <section id="certifications" class="fade-in">
+            <h2>Certification</h2>
+            <div class="experience-card">
+                <ul class="skills-grid" id="certifications-container">
+                    <!-- Data injected via JS -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Personal Info Section -->
+        <section id="personal" class="fade-in">
+            <h2>Personal Information</h2>
+            <div class="experience-card">
+                <ul class="skills-grid" id="personal-container">
+                    <!-- Data injected via JS -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section id="languages" class="fade-in">
+            <h2>Languages</h2>
+            <div class="experience-card" style="margin-bottom: 0;">
+                <ul class="skills-grid" id="languages-container">
+                    <!-- Data injected via JS -->
+                </ul>
+            </div>
+        </section>
+        
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="projects-container">
+                <!-- Data injected via JS -->
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline">
+            <h2>Timeline</h2>
+            <div class="timeline-wrapper" id="timeline-container">
+                <!-- Data injected via JS -->
+            </div>
+        </section>
+
+    </main>
+</div>
+
+
+<!-- Full Width Footer -->
+<footer class="site-footer">
+    <!-- Strip 1: Action Bar -->
+    <div class="footer-strip footer-action-bar">
+        <span>Abhishek Anand</span>
+        <span class="divider">|</span>
+        <span>Building Intelligent Shopify Experiences @theprintspace</span>
+        <span class="divider">|</span>
+        <a href="mailto:abhishekanand640@yahoo.com" class="footer-contact-link">Contact me</a>
+    </div>
+
+    <!-- Main Footer Content -->
+    <div class="footer-main">
+        <div class="footer-container">
+            
+            <!-- Multi-Column Layout -->
+            <div class="footer-columns-wrapper">
+                
+                <div class="footer-column-section">
+                    <h4>QUICK LINKS</h4>
+                    <div class="footer-inline-list">
+                        <div class="footer-inline-row">
+                            <a href="#summary">Summary</a> <span class="divider">|</span>
+                            <a href="#work-history">Experience</a> <span class="divider">|</span>
+                            <a href="#projects">Projects</a>
+                        </div>
+                        <div class="footer-inline-row">
+                            <a href="#skills">Skills</a> <span class="divider">|</span>
+                            <a href="#education">Education</a> <span class="divider">|</span>
+                            <a href="#certifications">Certifications</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-column-section">
+                    <h4>CONNECT</h4>
+                    <div class="footer-inline-list">
+                        <div class="footer-inline-row">
+                            <a href="https://www.linkedin.com/in/abhishek-a-207732266" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> <span class="divider">|</span>
+                            <a href="mailto:abhishekanand640@yahoo.com"><i class="fa-solid fa-envelope"></i> Email</a>
+                        </div>
+                        <div class="footer-inline-row">
+                            <a href="#projects"><i class="fa-solid fa-folder"></i> DopeBoo</a> <span class="divider">|</span>
+                            <a href="#timeline"><i class="fa-solid fa-clock"></i> Timeline</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-column-section">
+                    <h4>LOCATION</h4>
+                    <div class="footer-inline-list">
+                        <div class="footer-inline-row">
+                            <span><i class="fa-solid fa-earth-asia"></i> Remote</span> <span class="divider">|</span>
+                            <span><i class="fa-solid fa-location-dot"></i> UP, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strip 2: Divider -->
+            <div class="footer-strip-divider"></div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="footer-logo">
+                    <span style="color: var(--accent-cyan); font-weight: 700;">#</span>abhishek.anand
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2024 Abhishek Anand. All rights reserved.
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+<!-- Theme Toggle FAB -->
+<button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+    <i class="fa-solid fa-sun"></i>
+</button>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
