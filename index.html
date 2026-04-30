@@ -8,10 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Prevent FOUC (Flash of Unstyled Content) -->
+    <style>
+        body { visibility: hidden; opacity: 0; transition: opacity 0.4s ease; background-color: #0f0f11; }
+        body.light-mode { background-color: #f2f4f7; }
+        body.ready { visibility: visible; opacity: 1; }
+    </style>
+    <noscript><style>body { visibility: visible; opacity: 1; }</style></noscript>
+
     <link id="main-stylesheet" rel="stylesheet" href="css/styles.css">
-    <script>document.getElementById('main-stylesheet').href = 'css/styles.css?v=' + Date.now();</script>
 </head>
 <body>
+    <script>
+        // Apply theme immediately to prevent background flash
+        if (localStorage.getItem('theme') === 'light') {
+            document.body.classList.add('light-mode');
+        }
+    </script>
 
 <div class="layout-wrapper">
     
@@ -235,6 +249,30 @@
 <script>
     (function() {
         var cacheBuster = '?v=' + Date.now();
+        
+        var cssReady = false;
+        var jsReady = false;
+
+        function checkAndShow() {
+            if (cssReady && jsReady) {
+                document.body.classList.add('ready');
+            }
+        }
+
+        // 1. Load CSS
+        var cssLink = document.getElementById('main-stylesheet');
+        cssLink.onload = function() {
+            cssReady = true;
+            checkAndShow();
+        };
+        cssLink.href = 'css/styles.css' + cacheBuster;
+
+        // 2. Load JS
+        window.markJsReady = function() {
+            jsReady = true;
+            checkAndShow();
+        };
+
         var dataScript = document.createElement('script');
         dataScript.src = 'js/data.js' + cacheBuster;
         dataScript.onload = function() {
@@ -243,6 +281,11 @@
             document.body.appendChild(mainScript);
         };
         document.body.appendChild(dataScript);
+
+        // Fallback: forcefully show page after 1.5s
+        setTimeout(function() {
+            document.body.classList.add('ready');
+        }, 1500);
     })();
 </script>
 </body>

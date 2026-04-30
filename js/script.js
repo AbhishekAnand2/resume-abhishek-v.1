@@ -258,4 +258,8 @@
         });
     }
 
+    if (typeof window.markJsReady === 'function') {
+        window.markJsReady();
+    }
+
 })();
