@@ -2,7 +2,7 @@
 // You can edit any of the text here to instantly update the website!
 
 const resumeData = {
-    summary: "Motivated IT and e-commerce professional with 5+ years of experience, now transitioning into Shopify development. I have a strong foundation in SEO, website management, and data analysis, and a proven ability to rapidly learn new technologies—evidenced by successful Shopify feature implementations and theme customizations. I'm eager to bring my skills and enthusiasm to a dynamic Shopify development team.",
+    summary: "Experienced in architecting Shopify storefronts and managing complex e-commerce ecosystems for diverse brand portfolios. My work focuses on the intersection of technical development and operational efficiency, specifically through custom <strong>app integration flows</strong> and <strong>API-driven features</strong>. I leverage <strong>AI-assisted workflows</strong> to streamline theme customization, accelerate troubleshooting, and optimize large-scale data management.",
     
     overview: {
         yearsExperience: 5,
