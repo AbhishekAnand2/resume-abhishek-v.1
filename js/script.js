@@ -1,10 +1,10 @@
-// Bold.pro Inspired Modern Resume - Interactive Subsystem & Dynamic Renderer
+
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    /* --- 1. Dynamic Content Renderer --- */
+
     
-    // Auto-hide sections and their nav links if no data exists
+
     const manageSectionVisibility = (sectionId, checkData) => {
         const section = document.getElementById(sectionId);
         const navLink = document.querySelector(`.floating-nav a[href="#${sectionId}"]`);
@@ -26,13 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (typeof resumeData !== 'undefined') {
         
-        // Render Summary
+
         if (manageSectionVisibility('summary', resumeData.summary)) {
             const summaryContainer = document.getElementById('summary-content');
             if (summaryContainer) summaryContainer.innerHTML = resumeData.summary;
         }
 
-        // Render Overview
+
         if (manageSectionVisibility('overview', resumeData.overview)) {
             const overviewContainer = document.getElementById('overview-container');
             if (overviewContainer) {
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Render Work History
+
         if (manageSectionVisibility('work-history', resumeData.workHistory)) {
             const workContainer = document.getElementById('work-history-container');
             if (workContainer) {
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Render Education
+
         if (manageSectionVisibility('education', resumeData.education)) {
             const eduContainer = document.getElementById('education-container');
             if (eduContainer) {
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Render Simple Grids (Skills, Certs, Info, Languages)
+
         const renderListTemplate = (sectionId, containerId, dataArray) => {
             if (manageSectionVisibility(sectionId, dataArray)) {
                 const container = document.getElementById(containerId);
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderListTemplate('personal', 'personal-container', resumeData.personalInfo);
         renderListTemplate('languages', 'languages-container', resumeData.languages);
 
-        // Render Websites
+
         if (manageSectionVisibility('websites', resumeData.websites)) {
             const webContainer = document.getElementById('websites-container');
             if (webContainer) {
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Render Projects
+
         if (manageSectionVisibility('projects', resumeData.projects)) {
             const projectsContainer = document.getElementById('projects-container');
             if (projectsContainer) {
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // Render Timeline
+
         if (manageSectionVisibility('timeline', resumeData.timeline)) {
             const timelineContainer = document.getElementById('timeline-container');
             if (timelineContainer) {
@@ -187,14 +187,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     } else {
-        // If data.js is completely missing, redirect the viewport to our custom 404 interactive game!
+
         window.location.replace('404.html');
     }
 
 
-    /* --- 2. ScrollSpy & Interactive Subsystems --- */
+
     
-    // We defer standard DOM element selection slightly to ensure injected content is rendered
+
     setTimeout(() => {
         const sections = document.querySelectorAll('section');
         const navItems = document.querySelectorAll('.floating-nav a');
@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
-                // Highlight when section is near top of viewport
+    
                 if (scrollY >= (sectionTop - 150)) {
                     current = section.getAttribute('id');
                 }
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        /* --- Smooth Scrolling for Navigation Links --- */
+
         navItems.forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -237,12 +237,12 @@ document.addEventListener('DOMContentLoaded', () => {
         
     }, 50);
 
-    /* --- 3. Theme Toggle Logic --- */
+
     const themeToggleBtn = document.getElementById('theme-toggle');
     if (themeToggleBtn) {
         const themeIcon = themeToggleBtn.querySelector('i');
         
-        // Check local storage for theme
+
         if (localStorage.getItem('theme') === 'light') {
             document.body.classList.add('light-mode');
             themeIcon.classList.replace('fa-sun', 'fa-moon');

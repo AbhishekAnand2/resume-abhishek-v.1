@@ -1,5 +1,3 @@
-// Centralized Resume Data Configuration
-// You can edit any of the text here to instantly update the website!
 
 const resumeData = {
     summary: "Experienced in architecting Shopify storefronts and managing complex e-commerce ecosystems for diverse brand portfolios. My work focuses on the intersection of technical development and operational efficiency, specifically through custom <strong>app integration flows</strong> and <strong>API-driven features</strong>. I leverage <strong>AI-assisted workflows</strong> to streamline theme customization, accelerate troubleshooting, and optimize large-scale data management.",
