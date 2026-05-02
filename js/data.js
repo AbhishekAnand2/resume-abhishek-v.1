@@ -162,7 +162,7 @@ const resumeData = {
         { title: "E-Commerce Specialist - Oriental Gemco", date: "07.2024 - 10.2024" },
         { title: "E-Commerce Analyst - Kade Ventures LLC", date: "09.2022 - 03.2024" },
         { title: "Key Accounts and Ecommerce Manager - Love Earth", date: "11.2021 - 08.2022" },
-        { title: "Online eCommerce Executive - Qurvii", date: "11.2020 - 10.2021" },
+        { title: "E-Commerce Executive - Qurvii", date: "11.2020 - 10.2021" },
         { title: "B.Tech - Rajiv Gandhi Proudyogiki Vishwavidyalaya", date: "07.2024" }
     ]
 };
