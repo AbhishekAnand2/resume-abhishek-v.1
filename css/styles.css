@@ -392,23 +392,11 @@ body.light-mode .experience-card:hover {
     color: var(--text-main);
     margin-bottom: 1.2rem;
     display: block; /* Allows text wrapping and line breaking natively */
-    padding-left: 1.2rem;
-    text-indent: -1.2rem; /* Hanging indent so dash sticks out */
     line-height: 1.7;
-}
-
-.card-body ul li::before {
-    content: "- ";
-    margin-right: 0.2rem;
 }
 
 .card-body ul li strong {
     color: var(--text-white);
-}
-
-.card-body ul li strong::after {
-    content: "\A"; /* Force text to slide below subheading */
-    white-space: pre;
 }
 
 /* -----------------------------
