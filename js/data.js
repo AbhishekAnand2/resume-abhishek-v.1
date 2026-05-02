@@ -61,7 +61,7 @@ const resumeData = {
             ]
         },
         {
-            title: "Online eCommerce Executive",
+            title: "E-Commerce Executive",
             company: "Qurvii",
             location: "Noida, India",
             date: "11.2020 - 10.2021",
