@@ -9,23 +9,23 @@ const resumeData = {
 
     workHistory: [
         {
-            title: "Onboarding Specialist",
-            company: "theprintspace",
+            title: "E-Commerce Specialist",
+            company: "THEPRINTSPACE",
             location: "Remote, India",
             date: "11.2024 - Current",
             icon: "fa-briefcase",
             bullets: [
-                "<strong>Shopify Store Setup:</strong><br>• Built and deployed high-conversion Shopify stores utilizing Online Store 2.0 (OS 2.0) frameworks.<br>• Customized themes using JSON templates and meta-fields to create scalable product collections and dynamic brand storytelling layouts.",
-                "<strong>Product Configuration:</strong><br>• Optimized backend operations by managing large-scale product imports and data mapping via CSV.<br>• Handled advanced variant configuration, including custom attributes for signature editions and specialized fulfillment logic to ensure data integrity.",
-                "<strong>Landing Page Design:</strong><br>• Designed and optimized custom landing pages focused on Conversion Rate Optimization (CRO) for email capture, seasonal promotions, and early-access launches.<br>• Modified theme code to integrate brand-specific design elements, ensuring a seamless UI/UX across the storefront.",
-                "<strong>Fulfillment & Operations:</strong><br>• Managed the end-to-end technical setup for shipping zones, localized rates, and payment gateway preferences.<br>• Configured automated dropshipping workflows and DDP (Delivered Duty Paid) settings for streamlined international commerce.",
-                "<strong>Quality Assurance:</strong><br>• Conducted comprehensive store audits and User Acceptance Testing (UAT) to ensure functional parity across mobile and desktop.<br>• Monitored store health and proactively resolved technical bottlenecks and checkout friction points.",
-                "<strong>Mockups & Photography:</strong><br>• Directed product photography workflows to maintain visual consistency across the digital catalog.<br>• Created high-fidelity digital mockups with precise scaling and technical specs to enhance product presentation."
+                "<strong>Shopify Store Setup:</strong><br>• Architected and published high-velocity Shopify OS 2.0 storefront assets, including product drop funnels, homepage countdown modules, global navigation, and collection filters - scaling deployment speed from multiple days to an average of 2 landing pages per day using reusable JSON templates and dynamic theme sections.<br>• Governed site discoverability, data structure, and technical hygiene across fast-paced promotional campaigns by engineering custom metafields for dynamic specs/badges, standardizing on-page SEO metadata, and setting systematic 301 URL redirects to eliminate broken links and 404 errors from search suggestions.",
+                "<strong>Product Configuration:</strong><br>• Configured and enriched complex product catalogs and PDPs across high-stakes promotional drops - managing up to 500 variants per release, by standardizing product specifications, high-res visual assets, sizing options, and dynamic category tags to optimize customer discovery and on-site filtering.<br>• Governed catalog data integrity and limited-edition launch execution, preventing inventory overselling and pricing mismatches by establishing strict inventory caps, custom bundling rules, and precise SKU/pricing sync between backend fulfillment apps (Creativehub) and Shopify CSV schemas.",
+                "<strong>Landing Page Design:</strong><br>• Built and deployed multi-stage promotional drop funnels (early-access capture, live countdowns, and active sale pages) by assembling modular theme sections and scheduling automated release logic via custom Shopify schema.<br>• Optimized storefront conversion rates and cross-device visual hierarchy by integrating retouched artist assets, tracking bounce and sign-up metrics in Shopify Analytics, and enforcing rigorous pre-launch design checklists across mobile and desktop.",
+                "<strong>Fulfillment & Operations:</strong><br>• Configured international storefront operations and multi-currency checkouts across US, UK, and EU markets using Shopify Markets, localized payment gateway routing (Shop Pay, credit/debit, pay-later), and dynamic duty calculations to reduce checkout drop-offs.<br>• Governed end-to-end order fulfillment and carrier dispatch SLAs by monitoring cross-platform tracking synchronization between external print production labs, native Creativehub workflows, and Shopify customer notification channels.",
+                "<strong>Quality Assurance:</strong><br>• Governed multi-stage launch QA and storefront audits across dynamic drop funnels (ECC, holding pages, and landing pages), enforcing strict 80+ point verification checklists for responsive mobile hierarchy, CTA contrast, countdown timer timezones, and dummy checkout flows to prevent live-traffic drop-offs.<br>• Streamlined defect resolution and launch integrity across hundreds of complex art variants by auditing pricing margin sheets, edition caps, and fulfillment rules, escalating blockers with screen recordings to Account Handlers via Slack while self-resolving frontend layout issues to guarantee 100% error-free deployments.",
+                "<strong>Mockups & Photography:</strong><br>• Governed catalog visual standards and media specifications across PDPs and promotional pages, validating retouched print resolutions (DPI), color profiles, and transparent signature placements to eliminate customer sizing confusion and post-fulfillment return disputes.<br>• Streamlined cross-functional asset workflows and site performance by auditing lifestyle mockups for realistic scaling, compressing high-res imagery to safeguard mobile Core Web Vitals, and resolving asset defects with retouchers."
             ]
         },
         {
             title: "E-Commerce Specialist",
-            company: "Oriental Gemco (N.Y) Inc",
+            company: "ORIENTAL GEMCO (N.Y) INC",
             location: "Jaipur, India",
             date: "07.2024 - 10.2024",
             icon: "fa-briefcase",
@@ -38,7 +38,7 @@ const resumeData = {
         },
         {
             title: "E-Commerce Analyst",
-            company: "Kade Ventures LLC (Formerly Zapminati Marketing)",
+            company: "KADE VENTURES LLC",
             location: "Noida, India",
             date: "09.2022 - 03.2024",
             icon: "fa-briefcase",
@@ -50,7 +50,7 @@ const resumeData = {
         },
         {
             title: "Key Accounts and Ecommerce Manager",
-            company: "Love Earth Private Limited",
+            company: "LOVE EARTH PRIVATE LIMITED",
             location: "Noida, India",
             date: "11.2021 - 08.2022",
             icon: "fa-briefcase",
@@ -62,7 +62,7 @@ const resumeData = {
         },
         {
             title: "E-Commerce Executive",
-            company: "Qurvii",
+            company: "QURVII",
             location: "Noida, India",
             date: "11.2020 - 10.2021",
             icon: "fa-briefcase",
@@ -75,8 +75,8 @@ const resumeData = {
 
     education: [
         {
-            title: "B.Tech in Computer Science Engineering",
-            school: "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+            title: "Bachelor of Technology: Computer Science",
+            school: "Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, Madhya Pradesh",
             date: "07.2024",
             icon: "fa-graduation-cap",
             text: "Awarded a Bachelor of Technology (B.Tech) degree with a CGPA of 7.56."
@@ -98,41 +98,42 @@ const resumeData = {
     ],
 
     skills: [
-        "E-commerce",
-        "API",
-        "Google Analytics",
-        "Market Research",
-        "Web Analytics",
-        "Artificial Intelligence",
-        "Shopify Development (Storefront API)",
-        "Data Analysis",
-        "SEO Strategies",
-        "Analytical Thinking",
-        "Website Maintenance",
-        "HTML CSS JS",
-        "Requirements Gathering",
-        "Cross-Functional Team Collaboration",
-        "Problem-Solving",
-        "Web Development"
+        "<strong>E-Commerce & Platforms:</strong> Shopify, Shopify Storefront API, AppSheet, Catalog Architecture, Marketplace Operations",
+        "<strong>Frontend & Technical Development:</strong> HTML5, CSS3, JavaScript, Liquid, REST APIs, JSON, Webhook Integrations",
+        "<strong>Data & Relational Databases:</strong> MySQL / SQL (Queries, Relational Modeling), Google Sheets Relational Modeling, Data Validation",
+        "<strong>Analytics, Growth & Operations:</strong> Google Analytics 4 (GA4), SEO Strategy, On-Page Optimization, Inventory & Stock Workflow Automation"
     ],
 
     websites: [
         {
-            url: "https://www.linkedin.com/in/abhishek-a-207732266",
-            displayUrl: "linkedin.com/in/abhishek-a-207732266",
+            url: "https://www.linkedin.com/in/abhishek-anand-207732266",
+            displayUrl: "linkedin.com/in/abhishek-anand-207732266",
             icon: "fa-linkedin"
+        },
+        {
+            url: "https://bold.pro",
+            displayUrl: "bold.pro",
+            icon: "fa-globe"
+        },
+        {
+            url: "https://www.appsheet.com/start/12dc5320-79a3-4c8e-b58c-5541391943a0",
+            displayUrl: "appsheet.com/start/12dc5320-79a3-4c8e-b58c-5541391943a0",
+            icon: "fa-globe"
         }
     ],
 
     certifications: [
-        "Advanced Google Analytics (Valid upto March 2025)",
-        "Google Analytics for Beginners (Valid upto March 2025)",
-        "How to Use Generative AI: Building an AI-First Mindset"
+        "SEO Fundamentals (Semrush Academy)",
+        "How to Increase Sales on Shopify with Content Marketing (Semrush Academy)",
+        "Google Analytics Certification by Google, March 2022",
+        "Advanced Google Analytics Certification by Google, March 2022"
     ],
 
     personalInfo: [
         "Date of Birth: 07/18/02",
-        "Nationality: Indian"
+        "Nationality: Indian",
+        "Phone: 9818554661",
+        "Email: abhishekanand640@yahoo.com"
     ],
 
     languages: [
@@ -142,27 +143,42 @@ const resumeData = {
 
     projects: [
         {
-            title: "DopeBoo",
-            company: "Shopify Marketplace Scaling",
-            location: "Delaware, United States",
-            date: "09.2022 - 03.2024",
+            title: "CurvySync",
+            company: "Internal E-Commerce Inventory & Catalog Management System",
+            location: "",
+            date: "",
             icon: "fa-project-diagram",
             bullets: [
-                "• <strong>Shopify Marketplace Leadership:</strong> Spearheaded the Shopify-hosted marketplace, driving organic growth through strategic keyword optimization and category structuring.",
-                "• <strong>SEO-Focused Content Management:</strong> Meticulously managed product listings and content, ensuring optimal keyword usage to enhance discoverability.",
-                "• <strong>Data-Driven SEO Strategy:</strong> Conducted keyword research & competitive analysis to uncover gaps in our content and identify high-potential search terms.",
-                "• <strong>Financial Oversight and Transparency:</strong> Ensured financial transparency by meticulously verifying vendor payouts enabling accurate tracking of affiliate partnerships.",
-                "• <strong>Team Empowerment and Development:</strong> Invested in the professional growth of team members by providing comprehensive training to familiarize them with platform functionalities, including SEO principles."
+                "<strong>Tech Stack:</strong> AppSheet, Google Workspace Relational Architecture, Process Automation",
+                "Architected a zero-CapEx catalog and inventory infrastructure across a 4-tier relational schema, centralizing 100% of master product data, child variants, and transaction histories into a unified database.",
+                "Eliminated inventory reconciliation errors and stockout events by engineering an automated transaction ledger with real-time stock deductions, safety thresholds, and low-stock alerting.",
+                "Accelerated warehouse fulfillment and picking accuracy by embedding automated Code-128 barcode generation and visual bin-location tracking at the variant level.",
+                "Streamlined operational reporting workflows by building an on-demand export engine using dynamic table slices and direct endpoint routing to generate filtered, live-sync CSV catalogs.",
+                "Enforced catalog data integrity and pricing governance by implementing strict multi-level validation rules for dependent categories (Category/Sub-Category) and price-floor constraints (Selling Price vs. MRP)."
+            ]
+        },
+        {
+            title: "Dopeboo (Kadeventures)",
+            company: "E-Commerce Marketplace Operations & Growth",
+            location: "",
+            date: "",
+            icon: "fa-project-diagram",
+            bullets: [
+                "<strong>Tech Stack:</strong> Shopify Admin, Catalog Management, On-Page SEO, Process Optimization",
+                "Scaled organic search discoverability across Shopify storefronts by auditing and standardizing product taxonomy, structured metadata, and high-intent keyword mapping.",
+                "Increased product search impressions and high-intent traffic by conducting competitive gap analyses to identify and capture high-converting search terms across core collections.",
+                "Mitigated operational discrepancies and ensured financial accuracy by designing and executing an end-to-end audit workflow for affiliate and vendor payout reconciliations.",
+                "Standardized internal e-commerce standard operating procedures (SOPs) by developing structured documentation and training team members on CMS features, listing guidelines, and on-page SEO best practices."
             ]
         }
     ],
 
     timeline: [
-        { title: "Onboarding Specialist - theprintspace", date: "11.2024 - Current" },
+        { title: "E-Commerce Specialist - THEPRINTSPACE", date: "11.2024 - Current" },
         { title: "E-Commerce Specialist - Oriental Gemco", date: "07.2024 - 10.2024" },
         { title: "E-Commerce Analyst - Kade Ventures LLC", date: "09.2022 - 03.2024" },
         { title: "Key Accounts and Ecommerce Manager - Love Earth", date: "11.2021 - 08.2022" },
-        { title: "E-Commerce Executive - Qurvii", date: "11.2020 - 10.2021" },
+        { title: "E-Commerce Executive - QURVII", date: "11.2020 - 10.2021" },
         { title: "B.Tech - Rajiv Gandhi Proudyogiki Vishwavidyalaya", date: "07.2024" }
     ]
 };
